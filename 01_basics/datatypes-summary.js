@@ -32,7 +32,7 @@ const myfunction = function(){
     console.log("hello world");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 
 
 
@@ -52,3 +52,28 @@ console.log(typeof anotherId);
        OBJECT => object
 
        */
+
+
+//  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//  Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "hardikneolia"
+
+let anothername = myYoutubename
+anothername = "iamlucid"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "user@gamil.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hardik@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
