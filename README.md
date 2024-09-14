@@ -1,2 +1,2 @@
 # java
-Learning java
+Learning JavaScript 
